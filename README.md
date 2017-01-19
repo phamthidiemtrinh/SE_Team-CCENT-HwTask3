@@ -5,7 +5,8 @@
 ## 2. Địa chỉ broadcast :
 - là một loại dịa chỉ đặt biệt ( không dùng cho bất kì host nào) dùng để quảng bá.
 - khi một gói tin đươc truyền vào địa chỉ broacast của một mạng thì gói tin đó sẽ được chuyển đến tất cả các host trong mạng đó
-- các bit của host ddều là 1
+- các bit của host đều là 1
+
 ## 3. Địa chỉ host:
 - là dãy bit duy nhất được gán cho máy tính trong một mạng ( ở các mạng khác nhau thì địa chỉ host có thể giống nhau)
 
@@ -26,6 +27,7 @@ nếu không khai báo subnet mask kèm theo địa chỉ IP thì địa chỉ I
 ## 7. vì sao phải chia IP
 - tiết kiệm số lượng địa chỉ IP vì số lượng người truy cập Internet ngày càng nhiều
 - tăng tính an toàn và tiết kiệm hơn cho người sử dụng internet
+
 ## 8. Subnetting : 
 - là tổ hợp những kỹ thuật phân chia không gian địa chỉ của một lớp mạng cho trước thành nhiều lớp mạng nhỏ hơn bằng cách lấy một số bit ở phần Host Address (Host ID) để làm địa chỉ mạng cho mạng con (Subnet)
 
@@ -37,6 +39,7 @@ nếu không khai báo subnet mask kèm theo địa chỉ IP thì địa chỉ I
   - Số bit subnet mới = số bit subnet cũ + m
   
  - nguồn tham khảo: akali
+
 ## 10. CIDR(Classless Interdomain Routing) 
 -là một cách để gộp(aggregation) các địa chỉ mạng lại thành một địa chỉ được biểu diễn bằng prefix mask(nghĩa là bằng số bit biểu diễn cho mặt nạ). Cách biểu diễn này không quan tâm đến địa chỉ thuộc lớp nào. CIDR khắc phục được vấn đề thiếu hụt địa chỉ và bảng định tuyến lớn.
 - tham khảo : http://www.vnpro.org/forum/forum/ccent%C2%AE/icnd-1-osi-model-basic-tcp-ip/4739-cidr-va%CC%80-vlsm
